@@ -1,1 +1,185 @@
- 
+.wrapper{
+
+}
+
+.contanierone{
+
+}
+
+.headercontainer{
+    
+}
+.headermain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid salmon;
+    margin: 10px 0;
+    padding: 20px 0;
+}
+.headertop{
+    display: flex;
+    border: 2px solid green;
+    width:80%;
+    text-align: center;
+}
+
+.otu{
+    display: flex;
+    border: 2px solid blue;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+    font-size: 11px;
+}
+.abuo{
+    display: flex;
+    border: 2px solid brown;
+    flex-grow: 8;
+    font-family: 'Courgette', cursive;
+    font-size:25px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(168, 167, 167);
+}
+
+.ato{
+    display: flex;
+    flex-grow: 1;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+    font-size: 11px;
+}
+
+.ano{
+    display: flex;
+    flex-grow: 1;
+    border: 2px solid yellow;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+    font-size: 11px;
+}
+.headerbottom{
+    display: flex;
+    border: 2px solid red;
+    width: 80%;
+    text-align: center;
+    color: gray;
+    font-size: 13px;
+}
+
+.aa{
+    flex-grow: 1;
+    border: 2px solid rgb(238, 140, 20);
+}
+.headerbanner{
+    display: flex;
+    align-items: end;
+    /* align-content: flex-end; */
+    height:50vh;
+    border:2px solid red;
+    justify-content: center;
+    background-color: lightgray;
+    color: white;
+}
+
+.banner{
+    font-size: 40px;
+    border: 2px solid green;
+    font-family: 'Courgette', cursive;
+    letter-spacing: 4px;
+}
+
+.para{
+    display: flex;
+    border: 2px solid pink;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 10px;
+    color: gray;
+    font-size: 13px;
+}
+.para p{
+    border: 2px solid brown;
+    text-align: center;
+    width:50%;
+}
+
+
+
+
+.containertwo{
+    padding: 30px;
+    margin: 20px;
+
+}
+
+.box{
+    display: flex;
+    border: 2px solid green;
+    width:100%;
+    justify-content: space-around;
+    /* margin: 20px; */
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    font-size:13px;
+    color: gray;
+    width: 20%;
+    align-content: flex-end;
+}
+.box1 ul{
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.leftbar{
+    background-color: rgb(249, 249, 249);
+    padding: 20px
+}
+.box2{
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    width:70%;
+    justify-content: center;
+}
+
+.list1 ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.list2 ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.list3 ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.boxcon{
+    margin:5px;
+    width: 30%;
+}
+
+.boxa{
+    border: 2px solid blue;
+    background-color: lightgray;
+    height: 35vh;
+    
+}
+.boxb{
+    font-size:13px;
+    color: gray;
+}
