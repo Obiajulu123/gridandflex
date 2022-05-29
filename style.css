@@ -13,20 +13,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
     margin: 10px 0;
     padding: 20px 0;
 }
 .headertop{
     display: flex;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width:80%;
     text-align: center;
 }
 
 .otu{
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     flex-grow: 1;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@
 }
 .abuo{
     display: flex;
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     flex-grow: 8;
     font-family: 'Courgette', cursive;
     font-size:25px;
@@ -47,7 +47,7 @@
 .ato{
     display: flex;
     flex-grow: 1;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     justify-content: center;
     align-items: center;
     color: lightgray;
@@ -57,7 +57,7 @@
 .ano{
     display: flex;
     flex-grow: 1;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     justify-content: center;
     align-items: center;
     color: lightgray;
@@ -65,7 +65,7 @@
 }
 .headerbottom{
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     text-align: center;
     color: gray;
@@ -74,14 +74,14 @@
 
 .aa{
     flex-grow: 1;
-    border: 2px solid rgb(238, 140, 20);
+    /* border: 2px solid rgb(238, 140, 20); */
 }
 .headerbanner{
     display: flex;
     align-items: end;
     /* align-content: flex-end; */
     height:50vh;
-    border:2px solid red;
+    /* border:2px solid red; */
     justify-content: center;
     background-color: lightgray;
     color: white;
@@ -89,14 +89,14 @@
 
 .banner{
     font-size: 40px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     font-family: 'Courgette', cursive;
     letter-spacing: 4px;
 }
 
 .para{
     display: flex;
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     text-align: center;
     justify-content: center;
     margin: 10px 0;
@@ -105,7 +105,7 @@
     font-size: 13px;
 }
 .para p{
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     text-align: center;
     width:50%;
 }
@@ -114,14 +114,14 @@
 
 
 .containertwo{
-    padding: 30px;
+    padding: 50px;
     margin: 20px;
 
 }
 
 .box{
     display: flex;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width:100%;
     justify-content: space-around;
     /* margin: 20px; */
@@ -130,7 +130,7 @@
 .box1{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     font-size:13px;
     color: gray;
     width: 20%;
@@ -146,7 +146,7 @@
     padding: 20px
 }
 .box2{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     flex-wrap: wrap;
     width:70%;
@@ -174,7 +174,7 @@
 }
 
 .boxa{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: lightgray;
     height: 35vh;
     
@@ -183,3 +183,281 @@
     font-size:13px;
     color: gray;
 }
+
+.btn{
+    width:30%;
+    /* border: 2px solid brown; */
+}
+.btn button{
+    width:100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: lightgray;
+    border: 2px solid lightgray
+}
+.mlp{
+    display:flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+.mlp1{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    color: gray;
+}
+.mlp2{
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+}
+.containercircle{
+    display: flex;
+    /* border: 2px solid yellow; */
+    justify-content: space-between;
+}
+.containercircleone{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    /* border: 2px solid brown; */
+    align-items: center;
+    
+}
+.circlepara{
+    /* border: 2px solid gray; */
+    width:100%;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+.circlepara .pone{
+    font-size: 14px;
+    font-family: 'Courgette', cursive;
+    color: gray;
+    margin-top: 0;
+}
+.circlepara .ptwo{
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(66, 66, 66);
+    align-items: center;
+}
+.containercircletwo{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.containercirclethree{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    /* border: 2px solid brown; */
+    align-items: center;
+}
+.circle{
+    display: flex;
+    width:100px;
+    /* border: 2px solid blue; */
+    border-radius: 50%;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+}
+.icon{
+    /* border:2px solid yellow; */
+    width: 100%;
+    text-align: center;
+}
+.iconbox{
+    /* border: 2px solid black; */
+    width:48%;
+    height: 27vh;
+    margin:1px;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    flex-grow: 1;
+}
+/* .ee{
+    margin: 0 1px 1px 0;
+}
+.ff{
+    margin: 0 0 1px 0;
+}
+.gg{
+    margin: 0 1px 0 0;
+}
+.hh{
+
+} */
+
+.circlebox{
+    /* border: 2px solid pink; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+.asd{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid lightblue; */
+    width: 100%;
+    background: linear-gradient(to top, rgb(240, 240, 240) 0%, rgb(240, 240, 240) 50%, white 50%, white 100%);       
+}
+.line{
+    margin: 40px 0;
+}
+
+.trip{
+    margin: 0 0 30px 0;
+}
+
+.tripone{
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(58, 58, 58);
+}
+
+.testmonial{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.testmoniala{
+    /* border: 2px solid brown; */
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.testmonialtop{
+    border: 2px solid pink;
+}
+
+.testcirclepara{
+    /* border: 2px solid blue; */
+    display: flex;
+      background: linear-gradient(to top, rgb(207, 206, 206) 0%, rgb(207, 206, 206) 15%, white 15%, white 100%);
+}
+.testmonialcirlce{
+    /* border: 2px solid red; */
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 10px;
+}
+.testmonialpara{
+    /* border: 2px solid green; */
+}
+.testmonialdown{
+    /* border: 2px solid aqua; */
+    height: 55vh;
+    display: flex;
+    padding:  20px;
+    align-items: flex-end;
+    background-color: rgb(207, 206, 206);
+}
+
+
+.testmonialb{
+    /* border: 2px solid  salmon; */
+    width: 48%;
+}
+
+.testmonialdownb{
+    /* border: 2px solid aqua; */
+    height: 30vh;
+    display: flex;
+    padding:  20px;
+    align-items: flex-end;
+    background-color: rgb(207, 206, 206);
+}
+.bottom{
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-between;
+    /* padding: 20px; */
+    background-color: rgb(248, 248, 248);
+}
+
+.bottomone{
+    font-size: 25px;
+    font-family:'Courgette', cursive;
+    color: rgb(80, 79, 79);
+    padding: 20px;
+    /* flex-grow: 1; */
+    /* border: 2px solid red; */
+}
+
+.bottomtwo{
+    padding: 20px;
+    flex-grow: 1;
+    text-align: end;
+    /* border: 2px solid blue; */
+}
+.bottomtwo button{
+    padding: 10px 30px;
+    font-size: 13px;
+    background-color: rgb(211, 211, 211);
+    border: 1px solid rgb(211, 211, 211) ;
+}
+
+.bottomtwo input{
+    padding: 10px;
+    width: 60%;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(236, 236, 236) ;
+}
+
+.leg{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid pink; */
+}
+
+.legone{
+    /* border: 1px solid blue; */
+    flex-grow: 1;
+    font-size: 14px;
+    color: rgb(168, 168, 168);
+    padding: 5px;
+}
+
+.legtwo{
+    display: flex;
+    /* border: 1px solid red; */
+    flex-grow: 3;
+    justify-content: center;
+}
+
+.legtwoa{
+    width: 30px;
+    height: 30px;
+    background-color:  gray;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.legthree{
+    /* border: 1px solid green; */
+    flex-grow: 1;
+    text-align: end;
+    font-size: 12px;
+    color: rgb(161, 161, 161);
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
